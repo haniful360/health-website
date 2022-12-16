@@ -7,7 +7,7 @@ import logo from '../../assets/logo-dark.png'
 
 const Header = () => {
     return (
-        <div>
+        <div className='container'>
             <Navbar border="success" collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
                     <Navbar.Brand href="#home">
